@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AwsSuite" parallel="tests" thread-count="2">
+    <test name="EC2ApiTest">
+        <parameter name = "imageId" value = "ami-43874721"/>
+        <parameter name = "instanceType" value = "t2.micro"/>
+        <classes>
+            <class name="com.testexcercise.ec2instance.EC2InstanceCreateTest"/>
+        </classes>
+    </test>
+</suite>
