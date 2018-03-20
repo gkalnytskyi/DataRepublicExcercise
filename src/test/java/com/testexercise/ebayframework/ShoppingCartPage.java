@@ -1,4 +1,4 @@
-package com.datarepublic.testexercise.ebayframework;
+package com.testexercise.ebayframework;
 
 import java.util.*;
 import org.openqa.selenium.*;

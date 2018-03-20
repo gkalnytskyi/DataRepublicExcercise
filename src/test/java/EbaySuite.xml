@@ -3,16 +3,16 @@
 <suite name="EbaySuite" parallel="tests" thread-count="2">
   <test name="ChromeTest">
     <parameter name = "browser" value = "chrome"/>
-    <parameter name = "driverpath" value = ""/> 
+    <parameter name = "driverpath" value = ""/>
     <classes>
-      <class name="com.datarepublic.testexercise.ebay.EbayTest"/>
+      <class name="com.testexercise.ebay.EbayTest"/>
     </classes>
   </test>
   <test name="FirefoxTest">
     <parameter name ="browser" value="firefox"/>
     <parameter name = "driverpath" value = ""/>    
     <classes>
-      <class name="com.datarepublic.testexercise.ebay.EbayTest"/>
+      <class name="com.testexercise.ebay.EbayTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

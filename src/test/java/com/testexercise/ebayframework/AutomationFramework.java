@@ -1,4 +1,4 @@
-package com.datarepublic.testexercise.ebayframework;
+package com.testexercise.ebayframework;
 
 import java.net.*;
 import java.util.concurrent.TimeUnit;

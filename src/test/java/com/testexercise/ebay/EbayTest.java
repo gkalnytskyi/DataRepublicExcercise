@@ -1,14 +1,13 @@
-package com.datarepublic.testexercise.ebay;
+package com.testexercise.ebay;
 
 import java.net.*;
 import java.util.*;
 
 import org.openqa.selenium.*;
-
-import com.datarepublic.testexercise.ebayframework.*;
-
 import org.testng.*;
 import org.testng.annotations.*;
+
+import com.testexercise.ebayframework.*;
 
 public class EbayTest {
     
