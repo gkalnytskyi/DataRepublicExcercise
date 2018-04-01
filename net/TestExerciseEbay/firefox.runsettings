@@ -1,0 +1,6 @@
+﻿<RunSettings>  
+    <TestRunParameters>
+        <Parameter name="browser" value="Firefox" />
+		<Parameter name="driverpath" value="" />
+    </TestRunParameters>
+</RunSettings> 
