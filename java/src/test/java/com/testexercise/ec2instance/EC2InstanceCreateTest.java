@@ -1,4 +1,4 @@
-package com.testexcercise.ec2instance;
+package com.testexercise.ec2instance;
 
 import java.util.*;
 import java.util.stream.*;
